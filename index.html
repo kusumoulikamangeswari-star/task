@@ -1,16 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <title>Birthday Invitation</title>
+  <style>
+    body {
+      background: #ffefc4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .invitation-card {
+      background: #fff3b0;
+      border: 4px solid #f7b733;
+      border-radius: 15px;
+      padding: 30px 40px;
+      max-width: 400px;
+      box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    .invitation-card h1 {
+      color: #f76c6c;
+      margin-bottom: 10px;
+      font-size: 36px;
+      letter-spacing: 2px;
+    }
+    .invitation-card h2 {
+      color: #f7b733;
+      margin-bottom: 20px;
+      font-size: 28px;
+      font-style: italic;
+    }
+    .invitation-card p {
+      font-size: 18px;
+      color: #444;
+      line-height: 1.5;
+      margin: 10px 0;
+    }
+    .invitation-card strong {
+      color: #f76c6c;
+    }
+    .footer {
+      margin-top: 25px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
-<h1>Welcome to wedpage</h1>
-<h2>Plant Growth Process<h2>
-<p>Start: The process begins with planting a seed.Plant Seed: The seed is placed into the soil.Water Seed: The seed needs water to start growing.
-Is Soil Fertile?: A decision point checking if the soil has nutrients.If No, soil is improved (e.g., adding compost or fertilizer), then watering continues.</p>
-<p>If Yes, the seed continues to germinate.Seed Germinates: The seed sprouts roots and shoots.
-Seedling Grows: A small plant (seedling) starts to grow.Mature Plant: The seedling becomes a fully grown plant.End: The growth process completes.</p>
+
+  <div class="invitation-card">
+    <h1>You're Invited!</h1>
+    <h2>Birthday Celebration</h2>
+    <p>Dear Friend,</p>
+    <p>
+      Please join us to celebrate<br />
+      <strong>John's 10th Birthday!</strong>
+    </p>
+    <p>
+      <strong>Date:</strong> Saturday, October 5th, 2025<br />
+      <strong>Time:</strong> 3:00 PM - 6:00 PM<br />
+      <strong>Place:</strong> 123 Happy Street, Springfield
+    </p>
+    <p>There will be cake, games, and lots of fun!</p>
+    <p>RSVP by September 25th<br />
+      Call or Text: 555-123-4567
+    </p>
+    <p class="footer">We hope to see you there!<br />John's Family</p>
+  </div>
+
 </body>
 </html>
